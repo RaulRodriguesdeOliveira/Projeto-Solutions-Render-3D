@@ -1,0 +1,113 @@
+* {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  background-color: #050a30;
+  box-shadow: 3px 3px 3px black;
+  color: #e2d475;
+}
+
+.menu-button {
+  background-color: yellow;
+}
+
+.NavLogo {
+  width: 160px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 50px;
+  padding-left: 20px;
+}
+
+#titleContainer {
+  padding: 5vw;
+  background: #050a30;
+}
+
+#title {
+    color: white;
+    font-size: 5vw;
+}
+
+.foto1 {
+  max-width: 100%;
+}
+
+.heroTitle {
+  font-family: "poppins";
+  font-size: 50px;
+}
+
+.heroSubtitle {
+    color: #686b7e;
+}
+
+#heroButton {
+    background-color: #050a30;
+    color: #e2d475;
+    width: 200px;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#heroButton:hover {
+    background-color: #171f5a;
+    border: none;
+}
+
+#logoGrande {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#aboutUs-container {
+    margin-top: 100px;
+}
+
+#aboutUs-title {
+    font-size: 40px;
+}
+
+#aboutUs-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+#ourServices-title {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#ruler-icon, #paintBrush-icon, #urban-icon {
+    width: 50px;
+}
+
+#urbanServiceText {
+    margin-top: -20px;
+}
+
+#contactTitle {
+    font-size: 45px;
+}
+
+#contactText {
+    font-size: 20px;
+}
+
+#footerPage {
+    background-color: #050a30;
+    color: #e2d475;
+    font-size: 13px;
+}
+
+#devLink {
+    color: #e2d475;
+}
