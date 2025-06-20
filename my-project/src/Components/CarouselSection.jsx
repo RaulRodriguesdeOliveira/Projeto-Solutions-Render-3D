@@ -3,9 +3,9 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import foto1 from "/Scene1.png";
-import foto2 from "/Scene2.png";
-import foto3 from "/Scene3.png";
+import foto1 from "/Scene1.jpg";
+import foto2 from "/Scene2.jpg";
+import foto3 from "/Scene3.jpg";
 // import foto4 from "/Scene4.png";
 
 const CarouselSection = () => {

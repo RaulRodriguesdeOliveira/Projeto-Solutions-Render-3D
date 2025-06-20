@@ -1,4 +1,4 @@
-import foto1 from "/SOCIALScene 21.png";
+import foto1 from "/SOCIALScene 21.jpg";
 import logoGrande from "/LOGO-TAMANHO-GRANDE.jpeg";
 import regua from "/Regua.svg";
 import pincel from "/Pincel.svg";
