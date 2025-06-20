@@ -15,7 +15,7 @@ function Home() {
         <div>
           <img src={foto1} alt="logo" className="foto1" />
         </div>
-        <div className="d-flex flex-sm-column">
+        <div className="d-flex flex-column">
           <div
             className="d-flex flex-column gap-4 justify-content-center align-items-center  p-5"
             id="heroContainer"
@@ -23,7 +23,7 @@ function Home() {
             <h1 className="heroTitle text-center">
               Transformamos Ideias em Imagens Realistas em 3D
             </h1>
-            <h4 className="heroSubtitle">
+            <h4 className="heroSubtitle text-center">
               Modelagem 3D e Renderizações de alta qualidade para destacar o seu
               projeto arquitetônico.
             </h4>
@@ -35,7 +35,7 @@ function Home() {
             </a>
           </div>
           <div
-            className="d-flex flex-lg-row col-12 flex-sm-column align-items-sm-center"
+            className="d-flex flex-lg-row col-12 flex-column align-items-sm-center"
             id="aboutUs-container"
           >
             <div className="justify-content-center col-lg-5 col-sm-10 mb-sm-5">
@@ -47,7 +47,7 @@ function Home() {
               />
             </div>
             <div className="d-flex flex-column align-items-center justify-content-center ms-lg-5 gap-5">
-              <h2 id="aboutUs-title">Sobre a Solutions Render3D</h2>
+              <h2 id="aboutUs-title" className="text-center">Sobre a Solutions Render3D</h2>
               <p className="m-4" id="aboutUs-text">
                 Na Solutions Render3D, o foco é dar vida às suas ideias.
                 Especializados em modelagem 3D e renderizações arquitetônicas,
@@ -62,7 +62,7 @@ function Home() {
           <div className="w-100 d-flex align-items-center justify-content-center mt-5 mb-5">
             <h2 id="ourServices-title">Nossos Serviços</h2>
           </div>
-          <div className="d-flex flex-lg-row flex-sm-column gap-5 me-lg-4">
+          <div className="d-flex flex-lg-row flex-column gap-5 me-lg-4">
             <div className="d-flex flex-column align-items-center gap-5">
               <img id="ruler-icon" src={regua} alt="" />
               <h4>Modelagem 3D</h4>
@@ -89,7 +89,7 @@ function Home() {
             </div>
           </div>
           <div className="m-5">
-            <h1 className="m-5 d-flex justify-content-center">
+            <h1 className="m-5 d-flex justify-content-center text-center">
               Projetos Recentes
             </h1>
             <CarouselSection />
