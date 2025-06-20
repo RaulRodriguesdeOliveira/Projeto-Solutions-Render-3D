@@ -40,14 +40,14 @@ function Home() {
           >
             <div className="justify-content-center col-lg-5 col-sm-10 mb-sm-5">
               <img
-                data-aos='fade-right' data-aos-delay="900" 
+                data-aos='fade-right' data-aos-delay="600" 
                 src={logoGrande}
                 alt="logo-solutions-render-3d"
                 className="p-5"
                 id="logoGrande"
               />
             </div>
-            <div data-aos='fade-left' data-aos-delay="700" className="d-flex flex-column align-items-center justify-content-center ms-lg-5 gap-5">
+            <div data-aos='fade-left' data-aos-delay="600" className="d-flex flex-column align-items-center justify-content-center ms-lg-5 gap-5">
               <h2 id="aboutUs-title" className="text-center">
                 Sobre a Solutions Render3D
               </h2>
@@ -70,7 +70,7 @@ function Home() {
             <h2 id="ourServices-title">Nossos Serviços</h2>
           </div>
           <div className="d-flex flex-lg-row flex-column gap-5 me-lg-4">
-            <div data-aos='fade-up' data-aos-delay="800" id="modelagem-container" className="d-flex flex-column align-items-center gap-5">
+            <div data-aos='fade-up' data-aos-delay="600" id="modelagem-container" className="d-flex flex-column align-items-center gap-5">
               <img id="ruler-icon" src={regua} alt="" />
               <h4>Modelagem 3D</h4>
               <p className="text-center mt-2 ms-lg-4">
@@ -78,7 +78,7 @@ function Home() {
                 interiores.
               </p>
             </div>
-            <div data-aos='fade-up' data-aos-delay="800" id="render-container" className="d-flex flex-column align-items-center gap-5">
+            <div data-aos='fade-up' data-aos-delay="600" id="render-container" className="d-flex flex-column align-items-center gap-5">
               <img id="paintBrush-icon" src={pincel} alt="" />
               <h4>Renderizações Realistas</h4>
               <p className="text-center mt-2 ps-3 pe-3 ps-lg-5 pe-lg-5">
@@ -87,7 +87,7 @@ function Home() {
                 projeto.
               </p>
             </div>
-            <div data-aos='fade-up' data-aos-delay="800" id="urbanismo-container" className="d-flex flex-column align-items-center gap-5">
+            <div data-aos='fade-up' data-aos-delay="600" id="urbanismo-container" className="d-flex flex-column align-items-center gap-5">
               <img id="urban-icon" src={urban} alt="" />
               <h4 className="text-center">Estudos de Volume e Urbanismo</h4>
               <p id="urbanServiceText" className="text-center">
@@ -104,7 +104,7 @@ function Home() {
               Projetos
             </h1>
             <CarouselSection />
-            <div data-aos='fade-up' data-aos-delay="800" className="d-flex flex-column justify-content-center align-items-center mt-5">
+            <div data-aos='fade-up' data-aos-delay="600" className="d-flex flex-column justify-content-center align-items-center mt-5">
               <h2 className="m-5 text-center" id="contactTitle">
                 Solicite seu Orçamento
               </h2>
