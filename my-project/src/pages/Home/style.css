@@ -10,12 +10,19 @@
   color: #e2d475;
 }
 
+
 .menu-button {
   background-color: yellow;
 }
 
 .NavLogo {
-  width: 160px;
+  width: 130px;
+}
+
+@media (max-width: 991px) {
+    .NavLogo {
+        width: 180px;
+    }
 }
 
 .nav-menu {

@@ -1,4 +1,5 @@
-import foto1 from "/SOCIALScene 21.jpg";
+import foto1 from "/SOCIALScene 21-sm.jpg";
+import foto2 from "/SOCIALScene 21.jpg";
 import logoGrande from "/LOGO-TAMANHO-GRANDE.jpeg";
 import regua from "/Regua.svg";
 import pincel from "/Pincel.svg";
@@ -12,8 +13,11 @@ function Home() {
     <div>
       <Navbar />
       <div>
-        <div>
+        <div className="d-none d-sm-flex">
           <img src={foto1} alt="logo" className="foto1" />
+        </div>
+        <div className="d-flex d-sm-none">
+          <img src={foto2} alt="logo" className="foto1" />
         </div>
         <div className="d-flex flex-column">
           <div
@@ -21,14 +25,14 @@ function Home() {
             id="heroContainer"
           >
             <h1
-              data-aos="fade-up"
+              data-aos="fade"
               data-aos-delay="500"
               className="heroTitle text-center"
             >
               Transformando Ideias em Imagens Realistas 3D
             </h1>
             <h4
-              data-aos="fade-up"
+              data-aos="fade"
               data-aos-delay="500"
               className="heroSubtitle text-center"
             >
@@ -36,7 +40,7 @@ function Home() {
               projeto arquitetônico.
             </h4>
             <a
-              data-aos="fade-up"
+              data-aos="fade"
               data-aos-delay="500"
               target="blank"
               href="https://api.whatsapp.com/send/?phone=5516991975673&text=Ol%C3%A1%2C+Gostaria+de+receber+um+or%C3%A7amento.&type=phone_number&app_absent=0"
@@ -86,8 +90,8 @@ function Home() {
             <div className="d-flex row">
               <div className="d-flex flex-lg-row flex-column gap-5 col-md-4">
                 <div
-                  data-aos="fade-up"
-                  data-aos-delay="400"
+                  data-aos="fade"
+                  data-aos-delay="500"
                   id="modelagem-container"
                   className="d-flex flex-column align-items-center gap-5"
                 >
@@ -100,8 +104,8 @@ function Home() {
                 </div>
               </div>
               <div
-                data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos="fade"
+                data-aos-delay="500"
                 id="render-container"
                 className="d-flex flex-column align-items-center gap-5 col-md-4"
               >
@@ -114,8 +118,8 @@ function Home() {
                 </p>
               </div>
               <div
-                data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos="fade"
+                data-aos-delay="500"
                 id="urbanismo-container"
                 className="d-flex flex-column align-items-center gap-5 col-md-4"
               >
@@ -135,9 +139,11 @@ function Home() {
             >
               Projetos
             </h1>
-            <CarouselSection />
+            <div className="container">
+              <CarouselSection />
+            </div>
             <div
-              data-aos="fade-up"
+              data-aos="fade"
               data-aos-delay="400"
               className="d-flex flex-column justify-content-center align-items-center mt-5"
             >

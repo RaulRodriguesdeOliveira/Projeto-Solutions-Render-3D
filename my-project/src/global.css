@@ -8,6 +8,14 @@
   color: #e2d475;
 }
 
-body, html {
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+}
+
+#root {
   overflow-x: hidden;
 }
